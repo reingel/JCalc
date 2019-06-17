@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DEC946E22B7DF7700687464 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC946D22B7DF7700687464 /* AppDelegate.swift */; };
+		9DEC947022B7DF7800687464 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC946F22B7DF7800687464 /* ContentView.swift */; };
+		9DEC947222B7DF7900687464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DEC947122B7DF7900687464 /* Assets.xcassets */; };
+		9DEC947522B7DF7900687464 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DEC947422B7DF7900687464 /* Preview Assets.xcassets */; };
+		9DEC947822B7DF7900687464 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DEC947622B7DF7900687464 /* Main.storyboard */; };
+		9DEC948422B7DF7900687464 /* JCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC948322B7DF7900687464 /* JCalcTests.swift */; };
+		9DEC948F22B7DF7A00687464 /* JCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC948E22B7DF7A00687464 /* JCalcUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DEC948022B7DF7900687464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DEC946222B7DF7700687464 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DEC946922B7DF7700687464;
+			remoteInfo = JCalc;
+		};
+		9DEC948B22B7DF7A00687464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DEC946222B7DF7700687464 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DEC946922B7DF7700687464;
+			remoteInfo = JCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9DEC946A22B7DF7700687464 /* JCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DEC946D22B7DF7700687464 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DEC946F22B7DF7800687464 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9DEC947122B7DF7900687464 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DEC947422B7DF7900687464 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9DEC947722B7DF7900687464 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DEC947922B7DF7900687464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DEC947A22B7DF7900687464 /* JCalc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JCalc.entitlements; sourceTree = "<group>"; };
+		9DEC947F22B7DF7900687464 /* JCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DEC948322B7DF7900687464 /* JCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCalcTests.swift; sourceTree = "<group>"; };
+		9DEC948522B7DF7900687464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DEC948A22B7DF7A00687464 /* JCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DEC948E22B7DF7A00687464 /* JCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCalcUITests.swift; sourceTree = "<group>"; };
+		9DEC949022B7DF7A00687464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DEC946722B7DF7700687464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DEC947C22B7DF7900687464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DEC948722B7DF7A00687464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DEC946122B7DF7700687464 = {
+			isa = PBXGroup;
+			children = (
+				9DEC946C22B7DF7700687464 /* JCalc */,
+				9DEC948222B7DF7900687464 /* JCalcTests */,
+				9DEC948D22B7DF7A00687464 /* JCalcUITests */,
+				9DEC946B22B7DF7700687464 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DEC946B22B7DF7700687464 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DEC946A22B7DF7700687464 /* JCalc.app */,
+				9DEC947F22B7DF7900687464 /* JCalcTests.xctest */,
+				9DEC948A22B7DF7A00687464 /* JCalcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DEC946C22B7DF7700687464 /* JCalc */ = {
+			isa = PBXGroup;
+			children = (
+				9DEC946D22B7DF7700687464 /* AppDelegate.swift */,
+				9DEC946F22B7DF7800687464 /* ContentView.swift */,
+				9DEC947122B7DF7900687464 /* Assets.xcassets */,
+				9DEC947622B7DF7900687464 /* Main.storyboard */,
+				9DEC947922B7DF7900687464 /* Info.plist */,
+				9DEC947A22B7DF7900687464 /* JCalc.entitlements */,
+				9DEC947322B7DF7900687464 /* Preview Content */,
+			);
+			path = JCalc;
+			sourceTree = "<group>";
+		};
+		9DEC947322B7DF7900687464 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9DEC947422B7DF7900687464 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9DEC948222B7DF7900687464 /* JCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DEC948322B7DF7900687464 /* JCalcTests.swift */,
+				9DEC948522B7DF7900687464 /* Info.plist */,
+			);
+			path = JCalcTests;
+			sourceTree = "<group>";
+		};
+		9DEC948D22B7DF7A00687464 /* JCalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9DEC948E22B7DF7A00687464 /* JCalcUITests.swift */,
+				9DEC949022B7DF7A00687464 /* Info.plist */,
+			);
+			path = JCalcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DEC946922B7DF7700687464 /* JCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DEC949322B7DF7A00687464 /* Build configuration list for PBXNativeTarget "JCalc" */;
+			buildPhases = (
+				9DEC946622B7DF7700687464 /* Sources */,
+				9DEC946722B7DF7700687464 /* Frameworks */,
+				9DEC946822B7DF7700687464 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JCalc;
+			productName = JCalc;
+			productReference = 9DEC946A22B7DF7700687464 /* JCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DEC947E22B7DF7900687464 /* JCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DEC949622B7DF7A00687464 /* Build configuration list for PBXNativeTarget "JCalcTests" */;
+			buildPhases = (
+				9DEC947B22B7DF7900687464 /* Sources */,
+				9DEC947C22B7DF7900687464 /* Frameworks */,
+				9DEC947D22B7DF7900687464 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DEC948122B7DF7900687464 /* PBXTargetDependency */,
+			);
+			name = JCalcTests;
+			productName = JCalcTests;
+			productReference = 9DEC947F22B7DF7900687464 /* JCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9DEC948922B7DF7A00687464 /* JCalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DEC949922B7DF7A00687464 /* Build configuration list for PBXNativeTarget "JCalcUITests" */;
+			buildPhases = (
+				9DEC948622B7DF7A00687464 /* Sources */,
+				9DEC948722B7DF7A00687464 /* Frameworks */,
+				9DEC948822B7DF7A00687464 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DEC948C22B7DF7A00687464 /* PBXTargetDependency */,
+			);
+			name = JCalcUITests;
+			productName = JCalcUITests;
+			productReference = 9DEC948A22B7DF7A00687464 /* JCalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DEC946222B7DF7700687464 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Soonkyu Jeong";
+				TargetAttributes = {
+					9DEC946922B7DF7700687464 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					9DEC947E22B7DF7900687464 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 9DEC946922B7DF7700687464;
+					};
+					9DEC948922B7DF7A00687464 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 9DEC946922B7DF7700687464;
+					};
+				};
+			};
+			buildConfigurationList = 9DEC946522B7DF7700687464 /* Build configuration list for PBXProject "JCalc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DEC946122B7DF7700687464;
+			productRefGroup = 9DEC946B22B7DF7700687464 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DEC946922B7DF7700687464 /* JCalc */,
+				9DEC947E22B7DF7900687464 /* JCalcTests */,
+				9DEC948922B7DF7A00687464 /* JCalcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DEC946822B7DF7700687464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DEC947822B7DF7900687464 /* Main.storyboard in Resources */,
+				9DEC947522B7DF7900687464 /* Preview Assets.xcassets in Resources */,
+				9DEC947222B7DF7900687464 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DEC947D22B7DF7900687464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DEC948822B7DF7A00687464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DEC946622B7DF7700687464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DEC947022B7DF7800687464 /* ContentView.swift in Sources */,
+				9DEC946E22B7DF7700687464 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DEC947B22B7DF7900687464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DEC948422B7DF7900687464 /* JCalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DEC948622B7DF7A00687464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DEC948F22B7DF7A00687464 /* JCalcUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DEC948122B7DF7900687464 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DEC946922B7DF7700687464 /* JCalc */;
+			targetProxy = 9DEC948022B7DF7900687464 /* PBXContainerItemProxy */;
+		};
+		9DEC948C22B7DF7A00687464 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DEC946922B7DF7700687464 /* JCalc */;
+			targetProxy = 9DEC948B22B7DF7A00687464 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DEC947622B7DF7900687464 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DEC947722B7DF7900687464 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DEC949122B7DF7A00687464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DEC949222B7DF7A00687464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9DEC949422B7DF7A00687464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JCalc/JCalc.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "JCalc/Preview\\ Content";
+				DEVELOPMENT_TEAM = 39P4LSK223;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = JCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = reingel.JCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9DEC949522B7DF7A00687464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JCalc/JCalc.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "JCalc/Preview\\ Content";
+				DEVELOPMENT_TEAM = 39P4LSK223;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = JCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = reingel.JCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9DEC949722B7DF7A00687464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 39P4LSK223;
+				INFOPLIST_FILE = JCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = reingel.JCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JCalc.app/Contents/MacOS/JCalc";
+			};
+			name = Debug;
+		};
+		9DEC949822B7DF7A00687464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 39P4LSK223;
+				INFOPLIST_FILE = JCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = reingel.JCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JCalc.app/Contents/MacOS/JCalc";
+			};
+			name = Release;
+		};
+		9DEC949A22B7DF7A00687464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 39P4LSK223;
+				INFOPLIST_FILE = JCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = reingel.JCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = JCalc;
+			};
+			name = Debug;
+		};
+		9DEC949B22B7DF7A00687464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 39P4LSK223;
+				INFOPLIST_FILE = JCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = reingel.JCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = JCalc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DEC946522B7DF7700687464 /* Build configuration list for PBXProject "JCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DEC949122B7DF7A00687464 /* Debug */,
+				9DEC949222B7DF7A00687464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DEC949322B7DF7A00687464 /* Build configuration list for PBXNativeTarget "JCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DEC949422B7DF7A00687464 /* Debug */,
+				9DEC949522B7DF7A00687464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DEC949622B7DF7A00687464 /* Build configuration list for PBXNativeTarget "JCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DEC949722B7DF7A00687464 /* Debug */,
+				9DEC949822B7DF7A00687464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DEC949922B7DF7A00687464 /* Build configuration list for PBXNativeTarget "JCalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DEC949A22B7DF7A00687464 /* Debug */,
+				9DEC949B22B7DF7A00687464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DEC946222B7DF7700687464 /* Project object */;
+}
