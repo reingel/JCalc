@@ -7,24 +7,24 @@
 //
 
 struct Stack<T> {
-    var array: [T] = []
-    var count: Int {
-        return array.count
-    }
-    var isEmpty: Bool {
-        return array.isEmpty
-    }
-    
-    mutating func push(_ item: T) {
-        array.append(item)
-    }
-    mutating func pop() -> T? {
-        if isEmpty {
-            return nil
-        } else {
-            let item = array[array.endIndex - 1]
-            array.remove(at: array.endIndex - 1)
-            return item
-        }
-    }
+	var array: [T] = []
+	var count: Int {
+		return array.count
+	}
+	var isEmpty: Bool {
+		return array.isEmpty
+	}
+	
+	mutating func push(_ item: T) {
+		array.append(item)
+	}
+	mutating func pop() -> T? {
+		if isEmpty {
+			return nil
+		} else {
+			let item = array[array.endIndex - 1]
+			array.remove(at: array.endIndex - 1)
+			return item
+		}
+	}
 }

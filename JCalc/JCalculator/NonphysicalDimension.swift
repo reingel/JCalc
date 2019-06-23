@@ -7,5 +7,5 @@
 //
 
 enum NonphysicalDimension {
-    case digitalInformation
+	case digitalInformation
 }

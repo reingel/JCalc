@@ -7,13 +7,13 @@
 //
 
 struct Unit {
-    let dim: Dimension
-    let factor: NumericValue
-    let offset: NumericValue
-    
-    init(dim: Dimension, factor: NumericValue = 1.0, offset: NumericValue = 0.0) {
-        self.dim = dim
-        self.factor = factor
-        self.offset = offset
-    }
+	let dim: Dimension
+	let factor: NumericValue
+	let offset: NumericValue
+	
+	init(dim: Dimension, factor: NumericValue = 1.0, offset: NumericValue = 0.0) {
+		self.dim = dim
+		self.factor = factor
+		self.offset = offset
+	}
 }
