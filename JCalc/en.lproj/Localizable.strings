@@ -1,0 +1,674 @@
+/* 
+  Localizable.strings
+  BalloonCalc
+
+  Created by 정순규 on 11. 12. 19..
+  Copyright (c) 2011년 국과연. All rights reserved.
+*/
+
+"AppInfo" = "App Info";
+"AppName" = "BalloonCalc";
+"Feedback" = "Feedback : reingel@me.com";
+
+"Error" = "Error";
+"Warning" = "Warning";
+"Notice" = "Notice";
+"FreeLimit" = "Sorry! Free version has limitation of 20 lines. Do you want to buy the paid version now?";
+"FreeContinue" = "You can continue after erasing all expressions by pressing AC button long.";
+"ReinstallConstant" = "ConstantList.plist file is corrupted. Please reinstall this app.";
+"ReinstallUnit" = "UnitList.plist file is corrupted. Please reinstall this app.";
+"Delete all expression" = "Do you want to delete all expressions and answers?";
+"No, I don't" = "No, I don't";
+"Yes, delete all." = "Yes, I'll continue.";
+"ReloadDatabase" = "Reloading database will initialize the favorites and the order of auto-complete buttons. Do you want to continue?";
+"Yes, reload." = "Yes, I'll continue.";
+
+"Name" = "Name";
+"Constant" = "Constant";
+"Variable" = "Variable";
+"Unit" = "Unit";
+"Operand" = "Operand";
+"Function" = "Function";
+"Operator" = "Operator";
+"default" = "Default ";
+"Description" = "Description";
+"Dimension" = "Dimension";
+"Operand Requirement" = "Operand";
+"Left" = "Left";
+"Right" = "Right";
+
+"Insert" = "Insert";
+"Cancel" = "Cancel";
+"Edit" = "Edit";
+"Delete All" = "Delete All";
+"Done" = "Done";
+"Close" = "Close";
+"Constants" = "Constants";
+"Variables" = "Variables";
+"Units" = "Units";
+"Functions" = "Functions";
+"TapToInsert" = "Tap to insert a variable name. The values are represented in 'Numeric Display Format' of setting and 'Favorite Units'. Press 'Edit' button if you want to delete or reorder variables.";
+"TapStar" = "Tap star to make it favorite.";
+"TapStarUnit" = "Favorite units are used to represent answers. If more than one, a unit that makes the answer be represented in range of 1 ~ 1000 is used.";
+"Favorite" = "Favorite";
+"All" = "All";
+"Delete all variables" = "Do you want to delete all variables?";
+"AtLeastOneFavoriteUnit" = "At least one favorite unit should be remained to represent answers.";
+
+"Setting" = "Setting";
+"Screen Setting" = "Screen Setting";
+"Background" = "Background";
+"Button" = "Button";
+"Numeric Display Format" = "Numeric Display Format";
+"Number Style" = "Number Style";
+"Automatic" = "Automatic";
+"Decimal" = "Decimal";
+"Scientific" = "Scientific";
+"Number Format" = "Number Format";
+"No Limit" = "No Limit";
+"Max. Fraction" = "Max. Fraction";
+"Max. Significant" = "Max. Significant";
+"Maximum Digits" = "Maximum Digits";
+"Thousand Separator" = "Thousand Separator";
+"Fraction Space" = "Fraction Space";
+"Exchange Rate" = "Exchange Rate";
+"Last Update" = "Last Update";
+"Update WiFi Only" = "Update with WiFi Only";
+"Update Now" = "Update Now...";
+"NotReachable" = "Internet is not connected.";
+"ReachableViaWWAN" = "Wi-Fi is not possible.\nDo you want to update via 3G ?";
+"Default Units" = "Default Units";
+"Help" = "Help";
+"Update Notes" = "Update Notes";
+"Reload Database" = "Reload Database";
+
+"Number Style Explain" = "'Decimal' represents numbers as a decimal form like '314.1592'. 'Scientific' is like '3.141592e2'. 'Automatic' is equal to 'Scientific' if the number is bigger than the 'Maximum Digits' that you choose or smaller than 1e-4 (0.0001). 'Automatic' is 'Decimal' in other cases.";
+"Number Format Explain" = "'Max. Fraction' means that the number of fraction numbers is limited by the 'Maximum Digits' that you choose. 'Max. Significant' means that the number of significant numbers is limited in a similar way. 'No Limit' means there is no limit. Even if the 'Number Format' is 'No Limit', the number of significant numbers can't exceed 15 due to the system limitation.";
+"Exchange Rate Explain" = "Exchange rates are updated with www.google.com once a day.";
+"Reload Database Explain" = "'Reload Database' means BalloonCalc restores constant, unit and function databases to the original ones. Favorites are initialized. The order of auto-complete buttons are initialized. And all exchange rates are initialized to 1.";
+
+"TakePhoto" = "Take a New Photo";
+"SelectPhoto" = "Select from Photo Library";
+"BlueSky" = "Blue Sky";
+"Girl" = "Girl";
+"GreenLeaves" = "Green Leaves";
+"Spindrift" = "Spindrift";
+"Honeydew" = "Honeydew";
+"Carnation" = "Carnation";
+"Banana" = "Banana";
+
+"Transparency" = "Transparency";
+"Toolbar" = "Toolbar";
+"Classic" = "Classic";
+"Steel" = "Steel";
+"Gem" = "Gem Stone";
+"MetalGlass" = "Metal Glass";
+"GlassOrbs" = "Glass Orbs";
+
+"MenuNew" = "New";
+"MenuOpen" = "Open";
+"MenuSave" = "Save";
+"MenuExport" = "Export";
+"New File" = "New File";
+"Open File" = "Open File";
+"Save File" = "Save File";
+"Unsaved File Warning" = "There are unsaved expressions.\nDo you want to continue?";
+"Save File Message" = "Enter file name.";
+"Invalid file name" = "Invalid file name";
+"Save File Error" = "Save File Error";
+"Overwrite File" = "Do you want to overwrite?";
+"Yes" = "Yes";
+"No" = "No";
+"Cancel" = "Cancel";
+"Save" = "Save";
+"Open" = "Open";
+"Overwrite" = "Overwrite";
+"File Don't Exist" = "File doesn't exist.";
+
+"Export To Text" = "Export To Text";
+
+"ERCD_NoError" = "No error.";
+"ERCD_DuplicateEqual" = "Duplicate use of equal";
+"ERCD_DuplicateUnitConverter" = "Duplicate use of unit converter";
+"ERCD_UnrecognizedName" = "Unrecognized name";
+"ERCD_InvalidVariableName" = "Invalid variable name";
+"ERCD_UnexpectedUnit" = "Unexpected unit";
+"ERCD_UnexpectedEnd" = "Unexpected end of expression";
+"ERCD_InvalidFormatOfNumber" = "Invalid format of number";
+"ERCD_UnexpectedNumber" = "Unexpected number";
+"ERCD_UnexpectedParenthesis" = "Unexpected parenthesis";
+"ERCD_OperatorRequired" = "An operator is required.";
+"ERCD_UnitRequired" = "A unit is required.";
+"ERCD_LeftOperandRequired" = "A left operand is required.";
+"ERCD_RightOperandRequired" = "A right operand is required.";
+"ERCD_IntegerRequired" = "An integer is required.";
+"ERCD_NonNegativeIntegerRequired" = "A non-negative integer is required.";
+"ERCD_DivisionByZero" = "Division by zero";
+"ERCD_OutOfBound" = "Out of bound";
+"ERCD_DimensionMismatch" = "Dimension mismatch";
+"ERCD_ReservedName" = "Reserved name. Use other name.";
+
+"left parenthesis" = "left parenthesis";
+"right parenthesis" = "right parenthesis";
+"decibel" = "decibel";
+"factorial" = "factorial";
+"square" = "square";
+"cubic" = "cubic";
+"inverse" = "inverse";
+"unit multiplication" = "unit multiplication";
+"unit division" = "unit division";
+"unit addition" = "unit addition";
+"unit substraction" = "unit substraction";
+"power" = "power";
+"square root" = "square root";
+"log based on 10" = "common logarithm";
+"power of 10" = "power of 10";
+"natural log" = "natural logarithm";
+"exponential" = "exponential";
+"sine" = "sine";
+"arcsine" = "arcsine";
+"cosine" = "cosine";
+"arccosine" = "arccosine";
+"tangent" = "tangent";
+"arctangent" = "arctangent";
+"cotangent" = "cotangent";
+"arccotangent" = "arccotangent";
+"secant" = "secant";
+"arcsecant" = "arcsecant";
+"cosecant" = "cosecant";
+"arccosecant" = "arccosecant";
+"hyperbolic sine" = "hyperbolic sine";
+"hyperbolic arcsine" = "hyperbolic arcsine";
+"hyperbolic cosine" = "hyperbolic cosine";
+"hyperbolic arccosine" = "hyperbolic arccosine";
+"hyperbolic tangent" = "hyperbolic tangent";
+"hyperbolic arctangent" = "hyperbolic arctangent";
+"absolute" = "absolute";
+"ceil function" = "ceil function";
+"floor function" = "floor function";
+"sign function" = "sign function";
+"multiplication" = "multiplication";
+"division" = "division";
+"addition" = "addition";
+"minus or subtraction" = "minus or subtraction";
+"unit conversion" = "unit conversion";
+"end of expression" = "end of expression";
+
+"answer" = "answer";
+"user-defined variable" = "user-defined variable";
+
+"UpdateNotes" = "
+
+
+Version 1.6.1
+
+✔ Unit selection method to represent answers is improved.
+✔ Bug fixed.
+
+
+Version 1.6
+
+✔ Exchange rates are added. 88 currencies can be used.
+
+
+Version 1.5
+
+✔ Interactive help (tutorial) function is implemented. You can easily learn how to use BalloonCalc.
+✔ File management is implemented. You can make a new file, open a file, and save a file.
+✔ Export to text function is implemented. You can easily copy the whole expressions and answers at a time.
+✔ Keyboard can be switched by gesture and expression typing became easy.
+✔ Variables can be defined, reused and saved.
+✔ Insert button and view is added. Variables, constants, units and functions can be selected in a list.
+✔ Favorites units, constants, functions can be designated.
+✔ A proper unit is automatically chosen among the favorite units to make the answer easy to read. (Default units are integrated into favorite units.)
+✔ You can see the whole descriptions of auto-complete buttons at one tap.
+✔ The performance is improved when the number of expressions and answers is over several hundreds.
+✔ More units are added to database.
+✔ Physical and mathematical constants are added to database.
+✔ More functions are added.
+
+
+Version 1.3
+
+✔ Added dB (decibel) unit
+✔ Changed image and ignition time of explanation window (pop up when long press)
+✔ Added explanations about default unit, number style, number format, etc
+
+
+Version 1.2
+
+✔ Background image customization
+✔ Numeric keypad image customization
+✔ Toolbar & numeric keypad transparency customization
+✔ Improve reuse animation
+✔ Save expressions and answers when exit
+✔ Adjust time interval of backspace repetition
+✔ Play sound when unit button is pressed.
+
+
+Version 1.0.3
+
+✔ Add more units : EHz, PHz, THz, GHz, MHz, kHz, mHz, μHz, nHz, pHz, fHz, aHz
+✔ UK Localization of Unit System
+";
+
+"InitialHelp" = "Thank you for choosing BalloonCalc. You can see HELP if you press the menu button where the finger is pointing at.|310|242";
+
+"HelpShowAlphabetKeyboard" = "Drag the keyboard upwards to show the alphabet keyboard.|174|426|174|302";
+"HelpHideAlphabetKeyboard" = "Drag the keyboard downwards to hide the alphabet keyboard.|174|302|174|426";
+"HelpShowKeyboard" = "Tap an empty space to show the keyboard.|165|334|165|336";
+"HelpHideKeyboard" = "Tap an empty space to hide the keyboard.|165|130|165|133";
+
+"HelpContents" = "
+User interface:IconScreen.png
+Let's get started 'User interface' help. You can go next by tapping this help balloon. If you want to stop this help, press the left red button at any time.
+#KN
+The main screen of BalloonCalc is divided into three parts.
+#KN
+The finger is pointing at the area where expressions and answers are displayed.|165|130
+#KN
+Toolbar area is in the middle of the screen.|165|236
+#KN
+Keyboard area is the bottom of the screen.|165|366
+#KN
+The finger is pointing at the expression input box.|72|238
+#KN
+This is the insert button. Variables, constants, units and functions can be inserted by pressing this button.|31|242
+#KN
+This is the menu button. File management, help and setting are available by this button.|310|242
+#KN
+You can show the alphabet keyboard by dragging the keyboard upwards. Try it.|174|426|174|302
+#KA
+You can hide the alphabet keyboard by dragging it downwards. Try it.|174|302|174|426
+#KN
+You can hide the whole keyboard by tapping an empty space. Try it.|165|130|165|133
+#KH
+The keyboard will be shown again by tapping an empty space. Try it.|165|334|165|336
+#KS
+You can customize the background image and the keyboard image by pressing the setting button of menu. Try it after finishing this help.|310|242
+'User interface' help has been finished.
+//Typing and editing:IconEdit.png
+Let's get started 'Typing and editing' help. You can go next by tapping this help balloon. If you want to stop this help, press the left red button at any time.
+#KN
+Enter any expression by pressing keyboard buttons.
+#KN
+You can move the cursor by pressing the left and right arrow buttons where the finger is pointing at. The cursor moves repeatedly while you hold those buttons. The cursor will move over 5 characters after repeating 10 times. Try it.|310|292|310|294
+#KN
+You can delete a character by pressing the backspace button where the finger is pointing at. You can delete characters repeatedly while you hold that button. Five characters will be deleted at a time after repeating 10 times. Try it.|310|421|310|423
+#KN
+Delete all characters in the expression input box by pressing the AC (all clear) button where the finger is pointing at.|310|335|310|337
+#E:
+#KN
+Press 1.|44|421|44|423
+#E:1
+#KN
+Press 0.|44|454|44|456
+#E:10
+#KN
+Clear the expression input box using the AC button.|310|335|310|337
+#E:
+#KN
+Press 1 again.|44|421|44|423
+#E:1
+#KN
+Press and hold 0. You can input 000.|44|454
+#E:1000
+#KN
+Press the AC button.|310|335|310|337
+#E:
+You can input 000000(6 zeros) by pressing and holding the . button.|97|454
+#E:000000
+Press the AC button.|310|335|310|337
+#E:
+#KN
+You can input 000000000(9 zeros) by pressing and holding the EXP button.|151|454
+#E:000000000
+#KN
+You can find various functions and operators after pressing the shift button where the finger is pointing at. Try it.|44|292|44|294
+'Typing and editing' help has been finished.
+//Basic calculation:IconBasicCalc.png
+Let's get started 'Basic calculation' help. You can go next by tapping this help balloon. If you want to stop this help, press the left red button at any time.
+#KN
+Type in 1+2×3 using the numeric keyboard.
+#E:1+2×3
+#KN
+If you press the calc button where the finger is pointing at, the expression and answer will be shown as balloons. Try it. This help balloon may hide the expression. Don't mind it at the moment.|310|454|310|456
+#E:
+Now, type in (1+2)×3.
+#E:(1+2)×3
+Press the calc button to see an answer.
+#E:
+Good job! The expression is shown on the left and the answer on the right.
+#KN
+Let's try to reuse an answer. First, press √ on the keyboard.|204|292|204|294
+#E:√
+Then double-tap (tap twice) the answer 9 (the green balloon).
+#E:√9
+#KN
+Press +.|204|421|204|423
+#E:√9+
+Expressions can also be reused. Double-tap the expression (1+2)×3.
+#E:√9+(1+2)×3
+#KN
+Press the calc button to see the result.|310|454|310|456
+BalloonCalc is a string-based calculator. So, you can get the answer of a complex expression at one calculation.
+And you can easily find and reuse the previous expressions and answers by gesture.
+#KN
+Press +.|204|421|204|423
+#E:Ans+
+#KN
+Press 1.|44|421|44|423
+#E:Ans+1
+Press the calc button several times. BalloonCalc reuses the latest expression if the expression input box is empty.
+#E:
+One more thing...
+You can delete an expression or an answer by swiping it (dragging left or right).
+And all the expressions and answers can be erased by pressing and holding the AC button.|310|335
+'Basic calculation' help has been finished.
+//Sci/Eng calculation:IconSciCalc.png
+Let's get started 'Sci/Eng calculation' help. You can go next by tapping this help balloon. If you want to stop this help, press the left red button at any time.
+#KN
+Press the shift button where the finger is pointing at.|44|292|44|294
+#KN
+Press the sin button. A pair of parenthesis is automatically inserted.|44|335|44|337
+#E:sin()
+#KN
+Type in 30.|151|411|44|454
+#E:sin(30)
+#KN
+Try pressing the calc button.|310|454|310|456
+#E:
+BalloonCalc calculates all the physical quantities in SI unit system. So, BalloonCalc recognizes angles in radian.
+Don't worry. You can input angles in degree unit like this.
+Type in sin(30).
+#E:sin(30)
+#KN
+Add °(degree) unit after 30. You can find ° unit below the AC button after pressing the shift button.|44|292|310|380
+#E:sin(30°)
+#KN
+Press the calc button.|310|454|310|456
+#E:
+Now, let's see the automatic insertion of an operator.
+#KN
+Press 2.|97|421|97|423
+#E:2
+Type in sin(30°).
+#E:2sin(30°)
+#KN
+Press the calc button.|310|454|310|456
+#E:
+BalloonCalc automatically inserts the muliplication operator between a number and a function, a constant or a variable.
+But, the number should be first.
+Try calculating 2π and π2.
+You can find much more functions by pressing the insert button where the finger is pointing at. Try it after finishing this help.|31|242
+'Sci/Eng calculation' help has been finished.
+//Various input methods:InsertButton.png
+Let's get started 'Various input methods' help. You can go next by tapping this help balloon. If you want to stop this help, press the left red button at any time.
+#KN
+BalloonCalc supplies various input methods.
+Even though you used different input methods, the results are same if the strings (expressions) are same.
+Here is an example.
+#KN
+Press the shift button and type in tan(45).
+#E:tan(45)
+Press the shift button and type in ° (degree) unit below the AC button.
+#E:tan(45°)
+Press the calc button.
+#E:
+Now, let's use the alphabet keyboard.
+#KA
+Type in tan using the alphabet keyboard. Auto-complete buttons can be shown while you type in. You may press the tan button.
+#E:tan
+#KN
+Type in (45°).
+#E:tan(45°)
+Press the calc button.
+#E:
+At this time, let's use the insert button.
+Press the insert button where the finger is pointing at, press functions, and then select tan.|31|242|31|244
+#E:tan()
+Type in 45°.
+#E:tan(45°)
+Press the calc button.
+#E:
+'Various input methods' help has been finished.
+//How to use units - Basic:IconUnitBasic.png
+Let's get started 'How to use units - Basic' help. You can go next by tapping this help balloon. If you want to stop this help, press the left red button at any time.
+BalloonCalc is the unique calculator which is integrated with the unit system. If you learn how to use, BalloonCalc will be a powerful tool to handle units.
+It is not difficult to use units in BalloonCalc. Everything you should do is to add a unit after a number as in everyday life.
+Here is an example.
+#KN
+Press 1.|44|421|44|423
+#E:1
+#KA
+Press k on the alphabet keyboard. Auto-complete buttons will be shown in the accessary keyboard.|268|355|268|357
+#E:1k
+If you type in a string, BalloonCalc searches units (black), constants (blue), variables (green) and functions (red) which start with the string and shows those as an array of buttons.
+#KA
+Scroll the accessary keyboard and look around the auto-complete buttons.|304|245|100|245
+All buttons show units or constants starting with k.
+If you press and hold a button, a description balloon will appear. Try it.
+#KA
+You can see the whole descriptions at the same time when you press the tip button where the finger is pointing at.|68|455
+If an auto-complete button is pressed, its number of usages will be counted. Frequently used buttons will be shown on the left.
+#KA
+Press the km (kilometer) button or press m on the alphabet keyboard. At that time, the accessary keyboard goes back to the first page.|268|410|268|412
+#E:1km
+The first page will be shown to make it easy to input operators if the string is a recognizable unit, constant, variable or function.
+#KN
+Type in +200.
+#E:1km+200
+#KA
+Press m on the alphabet keyboard.|268|410|268|412
+#E:1km+200m
+#KA
+Press the calc button where the finger is pointing at.|310|455|310|457
+The unit of answer can vary according to the favorite units.
+There are several methods to convert the answer to a different unit.
+Double-tap the expression 1km+200m to reuse it.
+#E:1km+200m
+#KA
+Press ➔(unit conversion operator) where the finger is pointing at. At that time, auto-complete buttons which represent legnth units are shown on the accessary keyboard.|302|244|302|246
+#E:1km+200m➔
+#KA
+Press c on the alphabet keyboard.|139|410|139|412
+#E:1km+200m➔c
+Only cm (centimeter) which starts with c is shown among the length units.
+#KA
+Press the cm button or type m on the alphabet keyboard.
+#KA
+Press the calc button and see the result.|310|455|310|457
+#E:
+The answer is shown in cm unit.
+#KA
+You can convert the answer to a different unit again. Press ➔.|302|244|302|246
+#E:Ans➔
+Press a unit that you want to convert to. US and UK units such as mi (mile) are included.
+#KA
+Press the calc button.|310|455|310|457
+#E:
+#KA
+The insert button can also be used. Press ➔.|302|244|302|246
+#E:Ans➔
+Press the insert button where the finger is pointing at, press units, press length, and find and select a unit that you want to convert to.|31|194|31|196
+Press the calc button to see the result.
+#E:
+'How to use units - Basic' help has been finished.
+//How to use units - Advanced:IconUnitAdvanced.png
+Let's get started 'How to use units - Advanced' help. You can go next by tapping this help balloon. If you want to stop this help, press the left red button at any time.
+BalloonCalc can make combined units using the basic units.
+#KN
+Press 2.|97|421|97|423
+#E:2
+#KA
+Type in kg.|268|355|172|355
+#E:2kg
+#KA
+Press • button of the accessary keyboard. • (unit multiplication) operator is used to multiply units.|230|244|230|246
+#E:2kg•
+#KA
+Type in m.|268|410|268|412
+#E:2kg•m
+#KA
+Scroll the accessary keyboard and go to the first page.|100|245|304|245
+#KA
+Type in /s²➔N using the keyboard. / (unit division) operator is used to divide units.
+#E:2kg•m/s²➔N
+Only units can be added after • and / operators.
+² and ³ operators can also be typed using the numeric keyboard. Units, constants, variables and numbers can be inserted before those.
+#KA
+Press the calc button.|310|455|310|457
+#E:
+A new unit is combined with mass, length and time units and it is shown in force unit because its dimension is force.
+Double-tap the answer to reuse.
+#E:2N
+Type in •m➔J.
+#E:2N•m➔J
+#KA
+Press the calc button.|310|455|310|457
+#E:
+A new unit is combined by multiplying force and length and it is shown in energy unit because its dimension is energy.
+Double-tap the answer to reuse.
+#E:2J
+Type in /ms. (ms = millisecond)
+#E:2J/ms
+#KA
+Press the calc button.|310|455|310|457
+#E:
+A new unit is combined by dividing energy with time and it is shown in power unit because its dimension is power.
+#KA
+This button is used to input units starting with micro.|40|244
+#KA
+This button is used to input liter unit.|72|244
+#KA
+This button is used to input ohm unit.|104|244
+#KA
+This button is used to input units starting with degree. If it is used alone, it is the same as ° in the numeric keyboard.|136|244
+'How to use units - Advanced' help has been finished.
+//Favorite units:StarSelected.png
+Let's get started 'Favorite units' help. You can go next by tapping this help balloon. If you want to stop this help, press the left red button at any time.
+#KN
+Type in 60.
+#E:60
+#KA
+Type in kg.
+#E:60kg
+Press the calc button.
+#KN
+Type in ÷10.
+#E:Ans÷10
+Press the calc button several times and see the results.
+#E:
+If you designated one or more favorite units, BalloonCalc searches and uses one of those to try to show an answer between 1 and 1000.
+Press the insert button, press units, press mass and check the favorite units of mass. Change the favorite units by pressing stars, close it, and press the calc button.
+Default units of the previous version of BalloonCalc were integrated into the favorite units.
+'Favorite units' help has been finished.
+//How to use variables:IconVariable.png
+Let's get started 'How to use variables' help. You can go next by tapping this help balloon. If you want to stop this help, press the left red button at any time.
+#KA
+Press a.|44|356|44|358
+#E:a
+Press the button where the finger is pointing at. = will be inserted.|123|455|123|457
+#E:a=
+#KN
+Press 5.
+#E:a=5
+Press the calc button.
+#E:
+A new variable is generated. Press the insert button and select the 'a' variable in the variable list.|31|242|31|242
+#E:a
+The 'a' variable is inserted into the expression input box.
+#KN
+Press ².|204|335|204|337
+Press the calc button.
+#E:
+Now, let's assign a value with a unit to a variable.
+#KA
+Type in c=.|140|411|123|455
+#E:c=
+#KN
+Type in 10.
+#E:c=10
+#KA
+Type in cm.
+#E:c=10cm
+Press the calc button. At this time, an error will occur. Press OK button.
+BalloonCalc cannot generate a variable with the reserved names. 'c' in BalloonCalc is a constant which represents the speed of light.
+#KA
+Release the error position by tapping an empty space of the expression input box.|170|196|170|198
+#KA
+You can change the cursor position after long-pressing the expression input box. Try to move the cursor just after c. Ignore the pop-up menu.|62|196
+#KA
+Delete c by pressing the backspace button.|309|411|309|413
+#E:=10cm
+#KA
+Type in r_d.
+#E:r_d=10cm
+Press the calc button.
+#E:
+#KA
+A new variable was successfully generated. Press the insert button and check the r_d variable in the variable list. A newly generated variable is located at the top of the list.|31|194|31|196
+#KA
+Press r_d on the keyboard or select r_d in the variable list.
+#E:r_d
+#KA
+Type in ³➔.|197|244|302|244
+#E:r_d³➔
+BalloonCalc shows the list of volume units as a form of auto-complete buttons. Select a volume unit that you want.
+Press the calc button.
+#E:
+Every constant and variable in BalloonCalc is integrated with units. Use this function and make it your powerful tool.
+One more thing...
+#KA
+After pressing the insert button, you can delete or re-order the variables by pressing the upper-right edit button. Try it after finishing this help.|31|194|31|196
+'How to use variables' help has been finished.
+//How to use exchange rates:IconExchangeRate.png
+Let's get started 'How to use exchange rates' help. You can go next by tapping this help balloon. If you want to stop this help, press the left red button at any time.
+BalloonCalc deals with exchange rates just like units. Here is an example.
+#KN
+Press 1.|44|421|44|423
+#E:1
+#KA
+Type in USD with the keyboard or press USD auto-complete button. USD means U.S. dollar.
+#E:1USD
+#KA
+Press ➔.|302|244|302|246
+#E:1USD➔
+#KA
+Every currencies are shown as auto-complete buttons. Press e.|93|302|93|304
+#E:1USD➔e
+#KA
+Press EUR button. EUR means euro.
+#E:1USD➔EUR
+Press the Calc button.|310|454|310|456
+#E:
+If the answer is 1 EUR, you should update the exchange rates.
+Press the menu button, the setting button, and then 'Update Now...'. It may takes several minutes depending on the network. If the answer seems to be correct, you can go next.
+If the updating has been finished, press the Calc button again.
+When you calculate with currencies, it is easy to see answers after setting 'Number Style' as 'Decimal',...
+'Maximum Digits' as 0 or 2, and 'Thousand Separator' as on. You can try it now by press the menu button and then the setting button.
+From now on, let's try to use two different currencies.
+#KN
+Type in (100×3+10×5). Let's assume that three 100 dollars, five 10 dollars.
+#E:(100×3+10×5)
+#KA
+You can type in a currency name with the insert button. Press the insert button, units, exchange rate and select USD.|31|194|31|196
+#E:(100×3+10×5)USD
+#KN
+Type in +150.
+#E:(100×3+10×5)USD+150
+#KA
+Type in EUR by the keyboard, the auto-complete button, or the insert button.
+#E:(100×3+10×5)USD+150EUR
+Press the Calc button.|310|454|310|456
+#E:
+The answers is represented in the favorite unit of exchange rate.
+Press the insert button and change the favorite unit of exchange rate. And then press the Calc button again.
+If you set the favorite exchange rate as a specific currency, you can see all answers in the currency.
+Whenever you want to convert the answer to the different currency, just press ➔ button and a currency name.
+BalloonCalc updates the exchange rates with www.google.com once a day. The updates takes place only when BalloonCalc is running.
+If you want to update exchange rates immediately, press 'Update Now...' of setting. It may cost if the network is not wi-fi.
+'How to use exchange rates' help has been finished.
+";
+
+

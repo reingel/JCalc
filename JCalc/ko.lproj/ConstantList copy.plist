@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Description</key>
+		<string>표준 중력가속도 (standard gravity)</string>
+		<key>Dimension</key>
+		<string>0 1 -2 0 0 0</string>
+		<key>Name</key>
+		<string>gn</string>
+		<key>NumOfUsage</key>
+		<integer>0</integer>
+		<key>Offset</key>
+		<integer>0</integer>
+		<key>Value</key>
+		<real>9.806649999999999</real>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>진공에서의 광속 (speed of light in vacuum)</string>
+		<key>Dimension</key>
+		<string>0 1 -1 0 0 0</string>
+		<key>Name</key>
+		<string>c</string>
+		<key>NumOfUsage</key>
+		<integer>0</integer>
+		<key>Offset</key>
+		<integer>0</integer>
+		<key>Value</key>
+		<integer>299792458</integer>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>뉴턴의 중력상수 (Newtonian constant of gravitation)</string>
+		<key>Dimension</key>
+		<string>-1 3 -2 0 0 0</string>
+		<key>Name</key>
+		<string>G</string>
+		<key>NumOfUsage</key>
+		<integer>0</integer>
+		<key>Offset</key>
+		<integer>0</integer>
+		<key>Value</key>
+		<real>6.67384e-11</real>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>자연대수의 밑 (the base of the natural logarithm)</string>
+		<key>Dimension</key>
+		<string>0 0 0 0 0 0</string>
+		<key>Name</key>
+		<string>e</string>
+		<key>NumOfUsage</key>
+		<integer>0</integer>
+		<key>Offset</key>
+		<integer>0</integer>
+		<key>Value</key>
+		<real>2.718281828459045</real>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>원주율</string>
+		<key>Dimension</key>
+		<string>0 0 0 0 0 1</string>
+		<key>Name</key>
+		<string>π</string>
+		<key>NumOfUsage</key>
+		<integer>0</integer>
+		<key>Offset</key>
+		<integer>0</integer>
+		<key>Value</key>
+		<real>3.141592653589793</real>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>원주율</string>
+		<key>Dimension</key>
+		<string>0 0 0 0 0 1</string>
+		<key>Name</key>
+		<string>pi</string>
+		<key>NumOfUsage</key>
+		<integer>0</integer>
+		<key>Offset</key>
+		<integer>0</integer>
+		<key>Value</key>
+		<real>3.141592653589793</real>
+	</dict>
+</array>
+</plist>

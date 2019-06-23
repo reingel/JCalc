@@ -7,13 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9DDD54A622BE233E00C55A6C /* TemperatureValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDD54A522BE233E00C55A6C /* TemperatureValue.swift */; };
 		9DEC946E22B7DF7700687464 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC946D22B7DF7700687464 /* AppDelegate.swift */; };
-		9DEC947022B7DF7800687464 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC946F22B7DF7800687464 /* ContentView.swift */; };
 		9DEC947222B7DF7900687464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DEC947122B7DF7900687464 /* Assets.xcassets */; };
 		9DEC947522B7DF7900687464 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DEC947422B7DF7900687464 /* Preview Assets.xcassets */; };
 		9DEC947822B7DF7900687464 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DEC947622B7DF7900687464 /* Main.storyboard */; };
 		9DEC948422B7DF7900687464 /* JCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC948322B7DF7900687464 /* JCalcTests.swift */; };
 		9DEC948F22B7DF7A00687464 /* JCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC948E22B7DF7A00687464 /* JCalcUITests.swift */; };
+		9DEC94D622B7E9EB00687464 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC94D522B7E9EB00687464 /* Stack.swift */; };
+		9DEC94D922B7EFA200687464 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC94D822B7EFA200687464 /* Queue.swift */; };
+		9DF6D09722BE6E570059D4F4 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9DF6D09422BE6E560059D4F4 /* en.lproj */; };
+		9DF6D09822BE6E570059D4F4 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9DF6D09422BE6E560059D4F4 /* en.lproj */; };
+		9DF6D09922BE6E570059D4F4 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9DF6D09522BE6E570059D4F4 /* ko.lproj */; };
+		9DF6D09A22BE6E570059D4F4 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9DF6D09522BE6E570059D4F4 /* ko.lproj */; };
+		9DF6D09B22BE6E570059D4F4 /* en-GB.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9DF6D09622BE6E570059D4F4 /* en-GB.lproj */; };
+		9DF6D09C22BE6E570059D4F4 /* en-GB.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9DF6D09622BE6E570059D4F4 /* en-GB.lproj */; };
+		9DF6D0AD22BF4B060059D4F4 /* NonphysicalDimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6D0AC22BF4B060059D4F4 /* NonphysicalDimension.swift */; };
+		9DF6D0AE22BF4B060059D4F4 /* NonphysicalDimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6D0AC22BF4B060059D4F4 /* NonphysicalDimension.swift */; };
+		9DF6D0B022BFA0290059D4F4 /* UnitList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6D0AF22BFA0290059D4F4 /* UnitList.swift */; };
+		9DF6D0B422BFA0750059D4F4 /* PhysicalValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6D0B322BFA0750059D4F4 /* PhysicalValue.swift */; };
+		9DF6D0B522BFA97C0059D4F4 /* PhysicalValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6D0B322BFA0750059D4F4 /* PhysicalValue.swift */; };
+		9DF6D0B622BFA97E0059D4F4 /* UnitList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6D0AF22BFA0290059D4F4 /* UnitList.swift */; };
+		9DF6D0B822BFA9A10059D4F4 /* TemperatureValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDD54A522BE233E00C55A6C /* TemperatureValue.swift */; };
+		9DF6D0B922BFA9AF0059D4F4 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC94D522B7E9EB00687464 /* Stack.swift */; };
+		9DF6D0BA22BFA9AF0059D4F4 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC94D822B7EFA200687464 /* Queue.swift */; };
+		9DF6D0C022BFB4A50059D4F4 /* DimensionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6D0BF22BFB4A50059D4F4 /* DimensionList.swift */; };
+		9DF6D0C222BFB4C50059D4F4 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6D0C122BFB4C50059D4F4 /* Dimension.swift */; };
+		9DF6D0C422BFB51A0059D4F4 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6D0C322BFB51A0059D4F4 /* Unit.swift */; };
+		9DF6D0C522BFB5940059D4F4 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6D0C122BFB4C50059D4F4 /* Dimension.swift */; };
+		9DF6D0C622BFB5940059D4F4 /* DimensionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6D0BF22BFB4A50059D4F4 /* DimensionList.swift */; };
+		9DF6D0C722BFB5940059D4F4 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6D0C322BFB51A0059D4F4 /* Unit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +57,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9DDD54A522BE233E00C55A6C /* TemperatureValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureValue.swift; sourceTree = "<group>"; };
 		9DEC946A22B7DF7700687464 /* JCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DEC946D22B7DF7700687464 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9DEC946F22B7DF7800687464 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9DEC947122B7DF7900687464 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DEC947422B7DF7900687464 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9DEC947722B7DF7900687464 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,6 +71,18 @@
 		9DEC948A22B7DF7A00687464 /* JCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DEC948E22B7DF7A00687464 /* JCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCalcUITests.swift; sourceTree = "<group>"; };
 		9DEC949022B7DF7A00687464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DEC94D522B7E9EB00687464 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		9DEC94D722B7EA3B00687464 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9DEC94D822B7EFA200687464 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		9DF6D09422BE6E560059D4F4 /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
+		9DF6D09522BE6E570059D4F4 /* ko.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ko.lproj; sourceTree = "<group>"; };
+		9DF6D09622BE6E570059D4F4 /* en-GB.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "en-GB.lproj"; sourceTree = "<group>"; };
+		9DF6D0AC22BF4B060059D4F4 /* NonphysicalDimension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonphysicalDimension.swift; sourceTree = "<group>"; };
+		9DF6D0AF22BFA0290059D4F4 /* UnitList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitList.swift; sourceTree = "<group>"; };
+		9DF6D0B322BFA0750059D4F4 /* PhysicalValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicalValue.swift; sourceTree = "<group>"; };
+		9DF6D0BF22BFB4A50059D4F4 /* DimensionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimensionList.swift; sourceTree = "<group>"; };
+		9DF6D0C122BFB4C50059D4F4 /* Dimension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimension.swift; sourceTree = "<group>"; };
+		9DF6D0C322BFB51A0059D4F4 /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +133,15 @@
 		9DEC946C22B7DF7700687464 /* JCalc */ = {
 			isa = PBXGroup;
 			children = (
+				9DEC949C22B7DFB400687464 /* JCalculator */,
 				9DEC946D22B7DF7700687464 /* AppDelegate.swift */,
-				9DEC946F22B7DF7800687464 /* ContentView.swift */,
 				9DEC947122B7DF7900687464 /* Assets.xcassets */,
 				9DEC947622B7DF7900687464 /* Main.storyboard */,
 				9DEC947922B7DF7900687464 /* Info.plist */,
 				9DEC947A22B7DF7900687464 /* JCalc.entitlements */,
+				9DF6D09622BE6E570059D4F4 /* en-GB.lproj */,
+				9DF6D09422BE6E560059D4F4 /* en.lproj */,
+				9DF6D09522BE6E570059D4F4 /* ko.lproj */,
 				9DEC947322B7DF7900687464 /* Preview Content */,
 			);
 			path = JCalc;
@@ -133,6 +171,23 @@
 				9DEC949022B7DF7A00687464 /* Info.plist */,
 			);
 			path = JCalcUITests;
+			sourceTree = "<group>";
+		};
+		9DEC949C22B7DFB400687464 /* JCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				9DEC94D522B7E9EB00687464 /* Stack.swift */,
+				9DEC94D822B7EFA200687464 /* Queue.swift */,
+				9DDD54A522BE233E00C55A6C /* TemperatureValue.swift */,
+				9DEC94D722B7EA3B00687464 /* MyPlayground.playground */,
+				9DF6D0AC22BF4B060059D4F4 /* NonphysicalDimension.swift */,
+				9DF6D0C122BFB4C50059D4F4 /* Dimension.swift */,
+				9DF6D0BF22BFB4A50059D4F4 /* DimensionList.swift */,
+				9DF6D0C322BFB51A0059D4F4 /* Unit.swift */,
+				9DF6D0AF22BFA0290059D4F4 /* UnitList.swift */,
+				9DF6D0B322BFA0750059D4F4 /* PhysicalValue.swift */,
+			);
+			path = JCalculator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +258,7 @@
 				TargetAttributes = {
 					9DEC946922B7DF7700687464 = {
 						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
 					};
 					9DEC947E22B7DF7900687464 = {
 						CreatedOnToolsVersion = 11.0;
@@ -239,9 +295,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DF6D09722BE6E570059D4F4 /* en.lproj in Resources */,
 				9DEC947822B7DF7900687464 /* Main.storyboard in Resources */,
 				9DEC947522B7DF7900687464 /* Preview Assets.xcassets in Resources */,
+				9DF6D09922BE6E570059D4F4 /* ko.lproj in Resources */,
 				9DEC947222B7DF7900687464 /* Assets.xcassets in Resources */,
+				9DF6D09B22BE6E570059D4F4 /* en-GB.lproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +308,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DF6D09822BE6E570059D4F4 /* en.lproj in Resources */,
+				9DF6D09A22BE6E570059D4F4 /* ko.lproj in Resources */,
+				9DF6D09C22BE6E570059D4F4 /* en-GB.lproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,8 +328,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DEC947022B7DF7800687464 /* ContentView.swift in Sources */,
+				9DEC94D922B7EFA200687464 /* Queue.swift in Sources */,
+				9DF6D0B422BFA0750059D4F4 /* PhysicalValue.swift in Sources */,
+				9DF6D0C022BFB4A50059D4F4 /* DimensionList.swift in Sources */,
+				9DF6D0AD22BF4B060059D4F4 /* NonphysicalDimension.swift in Sources */,
+				9DEC94D622B7E9EB00687464 /* Stack.swift in Sources */,
+				9DF6D0C422BFB51A0059D4F4 /* Unit.swift in Sources */,
 				9DEC946E22B7DF7700687464 /* AppDelegate.swift in Sources */,
+				9DF6D0B022BFA0290059D4F4 /* UnitList.swift in Sources */,
+				9DF6D0C222BFB4C50059D4F4 /* Dimension.swift in Sources */,
+				9DDD54A622BE233E00C55A6C /* TemperatureValue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +345,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DF6D0C522BFB5940059D4F4 /* Dimension.swift in Sources */,
+				9DF6D0AE22BF4B060059D4F4 /* NonphysicalDimension.swift in Sources */,
+				9DF6D0B922BFA9AF0059D4F4 /* Stack.swift in Sources */,
+				9DF6D0BA22BFA9AF0059D4F4 /* Queue.swift in Sources */,
+				9DF6D0B822BFA9A10059D4F4 /* TemperatureValue.swift in Sources */,
+				9DF6D0C722BFB5940059D4F4 /* Unit.swift in Sources */,
+				9DF6D0B622BFA97E0059D4F4 /* UnitList.swift in Sources */,
+				9DF6D0C622BFB5940059D4F4 /* DimensionList.swift in Sources */,
+				9DF6D0B522BFA97C0059D4F4 /* PhysicalValue.swift in Sources */,
 				9DEC948422B7DF7900687464 /* JCalcTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +510,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = JCalc/JCalc.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -445,6 +525,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = reingel.JCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -453,6 +535,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = JCalc/JCalc.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -467,6 +550,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = reingel.JCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
