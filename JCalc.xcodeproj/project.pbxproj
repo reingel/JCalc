@@ -37,6 +37,12 @@
 		9DF6D0C522BFB5940059D4F4 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6D0C122BFB4C50059D4F4 /* Dimension.swift */; };
 		9DF6D0C622BFB5940059D4F4 /* DimensionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6D0BF22BFB4A50059D4F4 /* DimensionList.swift */; };
 		9DF6D0C722BFB5940059D4F4 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6D0C322BFB51A0059D4F4 /* Unit.swift */; };
+		9DF6D0CC22C10DAF0059D4F4 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6D0CB22C10DAF0059D4F4 /* Expression.swift */; };
+		9DF6D0CD22C10DAF0059D4F4 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6D0CB22C10DAF0059D4F4 /* Expression.swift */; };
+		9DF6D0CF22C24D670059D4F4 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6D0CE22C24D670059D4F4 /* Utils.swift */; };
+		9DF6D0D022C24D670059D4F4 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6D0CE22C24D670059D4F4 /* Utils.swift */; };
+		9DF6D0D222C3A73B0059D4F4 /* MathOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6D0D122C3A73B0059D4F4 /* MathOperator.swift */; };
+		9DF6D0D322C3A73B0059D4F4 /* MathOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6D0D122C3A73B0059D4F4 /* MathOperator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +63,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9DDD54A522BE233E00C55A6C /* TemperatureValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureValue.swift; sourceTree = "<group>"; usesTabs = 1; };
+		9DDD54A522BE233E00C55A6C /* TemperatureValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = TemperatureValue.swift; sourceTree = "<group>"; usesTabs = 1; };
 		9DEC946A22B7DF7700687464 /* JCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DEC946D22B7DF7700687464 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; usesTabs = 1; };
 		9DEC947122B7DF7900687464 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,17 +77,20 @@
 		9DEC948A22B7DF7A00687464 /* JCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DEC948E22B7DF7A00687464 /* JCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCalcUITests.swift; sourceTree = "<group>"; };
 		9DEC949022B7DF7A00687464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9DEC94D522B7E9EB00687464 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; usesTabs = 1; };
-		9DEC94D822B7EFA200687464 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; usesTabs = 1; };
+		9DEC94D522B7E9EB00687464 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Stack.swift; sourceTree = "<group>"; usesTabs = 1; };
+		9DEC94D822B7EFA200687464 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Queue.swift; sourceTree = "<group>"; usesTabs = 1; };
 		9DF6D09422BE6E560059D4F4 /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
 		9DF6D09522BE6E570059D4F4 /* ko.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ko.lproj; sourceTree = "<group>"; };
 		9DF6D09622BE6E570059D4F4 /* en-GB.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "en-GB.lproj"; sourceTree = "<group>"; };
-		9DF6D0AC22BF4B060059D4F4 /* NonphysicalDimension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonphysicalDimension.swift; sourceTree = "<group>"; usesTabs = 1; };
-		9DF6D0AF22BFA0290059D4F4 /* UnitList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitList.swift; sourceTree = "<group>"; usesTabs = 1; };
-		9DF6D0B322BFA0750059D4F4 /* PhysicalValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicalValue.swift; sourceTree = "<group>"; usesTabs = 1; };
-		9DF6D0BF22BFB4A50059D4F4 /* DimensionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimensionList.swift; sourceTree = "<group>"; usesTabs = 1; };
-		9DF6D0C122BFB4C50059D4F4 /* Dimension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimension.swift; sourceTree = "<group>"; usesTabs = 1; };
-		9DF6D0C322BFB51A0059D4F4 /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; usesTabs = 1; };
+		9DF6D0AC22BF4B060059D4F4 /* NonphysicalDimension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = NonphysicalDimension.swift; sourceTree = "<group>"; usesTabs = 1; };
+		9DF6D0AF22BFA0290059D4F4 /* UnitList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = UnitList.swift; sourceTree = "<group>"; usesTabs = 1; };
+		9DF6D0B322BFA0750059D4F4 /* PhysicalValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PhysicalValue.swift; sourceTree = "<group>"; usesTabs = 1; };
+		9DF6D0BF22BFB4A50059D4F4 /* DimensionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = DimensionList.swift; sourceTree = "<group>"; usesTabs = 1; };
+		9DF6D0C122BFB4C50059D4F4 /* Dimension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Dimension.swift; sourceTree = "<group>"; usesTabs = 1; };
+		9DF6D0C322BFB51A0059D4F4 /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Unit.swift; sourceTree = "<group>"; usesTabs = 1; };
+		9DF6D0CB22C10DAF0059D4F4 /* Expression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Expression.swift; sourceTree = "<group>"; usesTabs = 1; };
+		9DF6D0CE22C24D670059D4F4 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Utils.swift; sourceTree = "<group>"; usesTabs = 1; };
+		9DF6D0D122C3A73B0059D4F4 /* MathOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = MathOperator.swift; sourceTree = "<group>"; usesTabs = 1; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,7 +192,10 @@
 				9DF6D0BF22BFB4A50059D4F4 /* DimensionList.swift */,
 				9DF6D0C322BFB51A0059D4F4 /* Unit.swift */,
 				9DF6D0AF22BFA0290059D4F4 /* UnitList.swift */,
+				9DF6D0D122C3A73B0059D4F4 /* MathOperator.swift */,
 				9DF6D0B322BFA0750059D4F4 /* PhysicalValue.swift */,
+				9DF6D0CB22C10DAF0059D4F4 /* Expression.swift */,
+				9DF6D0CE22C24D670059D4F4 /* Utils.swift */,
 			);
 			path = JCalculator;
 			sourceTree = "<group>";
@@ -328,6 +340,7 @@
 			files = (
 				9DEC94D922B7EFA200687464 /* Queue.swift in Sources */,
 				9DF6D0B422BFA0750059D4F4 /* PhysicalValue.swift in Sources */,
+				9DF6D0D222C3A73B0059D4F4 /* MathOperator.swift in Sources */,
 				9DF6D0C022BFB4A50059D4F4 /* DimensionList.swift in Sources */,
 				9DF6D0AD22BF4B060059D4F4 /* NonphysicalDimension.swift in Sources */,
 				9DEC94D622B7E9EB00687464 /* Stack.swift in Sources */,
@@ -336,6 +349,8 @@
 				9DF6D0B022BFA0290059D4F4 /* UnitList.swift in Sources */,
 				9DF6D0C222BFB4C50059D4F4 /* Dimension.swift in Sources */,
 				9DDD54A622BE233E00C55A6C /* TemperatureValue.swift in Sources */,
+				9DF6D0CC22C10DAF0059D4F4 /* Expression.swift in Sources */,
+				9DF6D0CF22C24D670059D4F4 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +360,7 @@
 			files = (
 				9DF6D0C522BFB5940059D4F4 /* Dimension.swift in Sources */,
 				9DF6D0AE22BF4B060059D4F4 /* NonphysicalDimension.swift in Sources */,
+				9DF6D0D322C3A73B0059D4F4 /* MathOperator.swift in Sources */,
 				9DF6D0B922BFA9AF0059D4F4 /* Stack.swift in Sources */,
 				9DF6D0BA22BFA9AF0059D4F4 /* Queue.swift in Sources */,
 				9DF6D0B822BFA9A10059D4F4 /* TemperatureValue.swift in Sources */,
@@ -353,6 +369,8 @@
 				9DF6D0C622BFB5940059D4F4 /* DimensionList.swift in Sources */,
 				9DF6D0B522BFA97C0059D4F4 /* PhysicalValue.swift in Sources */,
 				9DEC948422B7DF7900687464 /* JCalcTests.swift in Sources */,
+				9DF6D0CD22C10DAF0059D4F4 /* Expression.swift in Sources */,
+				9DF6D0D022C24D670059D4F4 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

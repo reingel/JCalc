@@ -28,6 +28,26 @@ class JCalcTests: XCTestCase {
         XCTAssert(abs(temp["F"]! - 32.0) < 1e-9)
     }
     
+    func testStack() {
+        var stack = Stack<Int>()
+        
+        stack.push(1)
+        stack.push(2)
+        if let ret = stack.pop() { print(ret) }
+        if let ret = stack.pop() { print(ret) }
+        if let ret = stack.pop() { print(ret) }
+    }
+    
+    func testQueue() {
+        var queue = Queue<Int>()
+        
+        queue.push(1)
+        queue.push(2)
+        if let ret = queue.pop() { print(ret) }
+        if let ret = queue.pop() { print(ret) }
+        if let ret = queue.pop() { print(ret) }
+    }
+    
     func testUnitList() {
         let a = PhysicalValue(1, "km")
         let b = PhysicalValue(200, "m")
@@ -36,6 +56,24 @@ class JCalcTests: XCTestCase {
         
         XCTAssert(a + b == c)
         XCTAssert(a * b == d)
+        XCTAssert(c.valueIn("km") == 1.2)
+    }
+    
+    func testMathOperator() {
+        let a = mathOperators["("]
+        print(a!.priority)
+        print(MathOperator.addition.priority)
+    }
+    
+    func testExpression() {
+        print("")
+        
+//        let string = "1km + 200m * (3 - 1)"
+        let string = "1 + 2 ^ 9 * 3 + 4 / 5 - 6 ^ 2"
+        let ans = evaluate(string)
+        print(ans)
+        
+        print("")
     }
 
     func testPerformanceExample() {

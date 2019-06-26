@@ -7,7 +7,7 @@
 //
 
 struct Queue<T> {
-	var array: [T] = []
+	var array = [T]()
 	var count: Int {
 		return array.count
 	}

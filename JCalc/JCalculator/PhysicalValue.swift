@@ -29,6 +29,15 @@ struct PhysicalValue: Equatable {
 		}
 	}
 	
+	func valueIn(_ unitString: String) -> NumericValue {
+		if let unit = units[unitString] {
+			return (value - unit.offset) / unit.factor
+		} else {
+			// TODO: throw error
+			return 0.0
+		}
+	}
+	
 	static func ==(lhs: PhysicalValue, rhs: PhysicalValue) -> Bool {
 		return lhs.value == rhs.value && lhs.dim == rhs.dim
 	}
