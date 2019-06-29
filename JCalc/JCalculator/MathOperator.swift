@@ -6,26 +6,32 @@
 //  Copyright © 2019 Soonkyu Jeong. All rights reserved.
 //
 
-typealias OperatorPriority = UInt8
-
-enum MathOperator {
+enum MathOperator: Comparable {
     case leftParenthesis, rightParenthesis
     case power
     case multiplication, division
     case addition, subtraction
-    
-    var priority: OperatorPriority {
-        switch self {
-        case .leftParenthesis, .rightParenthesis:
-            return 0
-        case .addition, .subtraction:
-            return 1
-        case .multiplication, .division:
-            return 2
-        case .power:
-            return 3
-        }
-    }
+	
+	var priority: Int {
+		switch self {
+		case .leftParenthesis, .rightParenthesis:
+			return 0
+		case .addition, .subtraction:
+			return 1
+		case .multiplication, .division:
+			return 2
+		case .power:
+			return 3
+		}
+	}
+	
+	static func < (lhs: MathOperator, rhs: MathOperator) -> Bool {
+		return lhs.priority < rhs.priority
+	}
+	
+	static func == (lhs: MathOperator, rhs: MathOperator) -> Bool {
+		return lhs.priority == rhs.priority
+	}
 }
 
 struct MathOperatorList {

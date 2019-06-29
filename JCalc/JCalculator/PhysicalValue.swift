@@ -6,8 +6,6 @@
 //  Copyright © 2019 Soonkyu Jeong. All rights reserved.
 //
 
-typealias NumericValue = Double
-
 struct PhysicalValue: Equatable {
 	var value: NumericValue
 	let dim: Dimension

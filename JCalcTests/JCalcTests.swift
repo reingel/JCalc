@@ -17,16 +17,6 @@ class JCalcTests: XCTestCase {
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
-
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        
-        var temp = TemperatureValue()
-        temp["C"] = 0
-        XCTAssert(temp["K"]! == 273.15)
-        XCTAssert(abs(temp["F"]! - 32.0) < 1e-9)
-    }
     
     func testStack() {
         var stack = Stack<Int>()
@@ -69,8 +59,11 @@ class JCalcTests: XCTestCase {
         print("")
         
 //        let string = "1km + 200m * (3 - 1)"
-        let string = "1 + 2 ^ 9 * 3 + 4 / 5 - 6 ^ 2"
-        let ans = evaluate(string)
+//        let string = "1 + 2 ^ 9 * 3 + 4 / 5 - 6 ^ 2"
+        let string = "1+2^9*3+4/5-6^2"
+        
+        var expression = Expression()
+        let ans = expression.evaluate(string)
         print(ans)
         
         print("")
